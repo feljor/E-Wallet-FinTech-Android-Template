@@ -4,7 +4,7 @@ A feature rich Android wallet app template for finance app projects & fintech co
 This E-Wallet app template makes it easier than ever to create your own finance app with the UI design ready to be integreted with any backend.
 ## Download APK file 
 
-<img src="https://github.com/feljor/E-Wallet-FinTech-Android-Template/blob/master/screenshots/download.png" href="https://github.com/feljor/E-Wallet-FinTech-Android-Template/raw/master/screenshots/ewallet.apk" alt="Download E-Wallet App Template.apk">
+<a href="https://github.com/feljor/E-Wallet-FinTech-Android-Template/raw/master/screenshots/ewallet.apk"><img src="https://github.com/feljor/E-Wallet-FinTech-Android-Template/blob/master/screenshots/download.png" alt="Download E-Wallet App Template.apk"></a>
 
 ## Screenshots
 
