@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="-20dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:scaleType="centerCrop"
+                                android:layout_gravity="center"
+                                android:src="@drawable/visa1"/>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="40"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="07-07-2020  02:23 PM"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Add Money"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="30"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="right"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Success"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+ $104.17"
+                                    android:textColor="@color/green_clair"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey_clair"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:scaleType="centerCrop"
+                                android:layout_gravity="center"
+                                android:src="@drawable/bank"/>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="40"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="07-13-2020  09:23 PM"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Bank Wire Transfer"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="30"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="right"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="In process"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+ $2320.20"
+                                    android:textColor="@color/red_clair"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey_clair"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:scaleType="centerCrop"
+                                android:layout_gravity="center"
+                                android:src="@drawable/paypal1"/>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="40"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="07-07-2020  02:23 PM"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Online Payment"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="30"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="right"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Success"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+ $81.32"
+                                    android:textColor="@color/red_clair"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey_clair"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:scaleType="centerCrop"
+                                android:layout_gravity="center"
+                                android:src="@drawable/mastercard"/>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="40"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="07-17-2020  02:23 PM"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Add Money"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="30"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="right"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Success"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+ 876.17"
+                                    android:textColor="@color/green_clair"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey_clair"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:scaleType="centerCrop"
+                                android:layout_gravity="center"
+                                android:src="@drawable/visa1"/>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="40"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="07-07-2020  02:23 PM"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Add Money"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="30"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="right"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Success"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+ $104.17"
+                                    android:textColor="@color/green_clair"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey_clair"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:scaleType="centerCrop"
+                                android:layout_gravity="center"
+                                android:src="@drawable/bank"/>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="40"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="07-13-2020  09:23 PM"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Bank Wire Transfer"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="30"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="right"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="In process"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+ $2320.20"
+                                    android:textColor="@color/red_clair"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey_clair"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:scaleType="centerCrop"
+                                android:layout_gravity="center"
+                                android:src="@drawable/paypal1"/>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="40"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="07-07-2020  02:23 PM"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Online Payment"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="30"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="right"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Success"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+ $81.32"
+                                    android:textColor="@color/red_clair"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey_clair"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:scaleType="centerCrop"
+                                android:layout_gravity="center"
+                                android:src="@drawable/mastercard"/>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="40"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="07-17-2020  02:23 PM"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Add Money"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="30"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="right"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Success"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+ 876.17"
+                                    android:textColor="@color/green_clair"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey_clair"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:scaleType="centerCrop"
+                                android:layout_gravity="center"
+                                android:src="@drawable/paypal1"/>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="40"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="07-07-2020  02:23 PM"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Online Payment"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="30"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="right"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Success"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+ $81.32"
+                                    android:textColor="@color/red_clair"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey_clair"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:scaleType="centerCrop"
+                                android:layout_gravity="center"
+                                android:src="@drawable/mastercard"/>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="40"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="07-17-2020  02:23 PM"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Add Money"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="30"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="right"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Success"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+ 876.17"
+                                    android:textColor="@color/green_clair"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey_clair"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:scaleType="centerCrop"
+                                android:layout_gravity="center"
+                                android:src="@drawable/visa1"/>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="40"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="07-07-2020  02:23 PM"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Add Money"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="30"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="right"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Success"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+ $104.17"
+                                    android:textColor="@color/green_clair"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey_clair"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:scaleType="centerCrop"
+                                android:layout_gravity="center"
+                                android:src="@drawable/bank"/>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="40"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="07-13-2020  09:23 PM"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Bank Wire Transfer"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="30"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="right"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="In process"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+ $2320.20"
+                                    android:textColor="@color/red_clair"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey_clair"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.mikhaellopez.circularimageview.CircularImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:scaleType="centerCrop"
+                                android:layout_gravity="center"
+                                android:src="@drawable/visa1"/>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="40"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="07-07-2020  02:23 PM"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Add Money"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="30"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="right"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Success"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+ $104.17"
+                                    android:textColor="@color/green_clair"
+                                    android:textStyle="bold"
+                                    android:textSize="14dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_home"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/arrow_back"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_alignParentLeft="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_home">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile"
+                app:civ_border_color="@color/colorPrimaryDark"
+                android:translationZ="4dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/stats"
+                android:layout_width="match_parent"
+                android:layout_height="900dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginBottom="-25dp"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="70dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Will Smith"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="United States"
+                        android:textSize="14dp"
+                        android:textAllCaps="true"
+                        android:gravity="center"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="1dp"
+                        android:background="@color/grey_clair" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="090022781"
+                        android:drawableLeft="@drawable/ic_phone"
+                        android:drawablePadding="20dp"
+                        android:textSize="14dp"
+                        android:layout_marginLeft="20dp"
+                        android:textAllCaps="true"
+                        android:gravity="left"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="willsmith@gmail.com"
+                        android:drawableLeft="@drawable/ic_mail"
+                        android:drawablePadding="20dp"
+                        android:textSize="14dp"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="left"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="1074  Alexander Avenue"
+                        android:drawableLeft="@drawable/ic_pin"
+                        android:drawablePadding="20dp"
+                        android:textSize="14dp"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="left"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="1dp"
+                        android:background="@color/grey_clair" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginTop="10dp"
+                            android:text="Notifications"
+                            android:drawableLeft="@drawable/ic_notifications"
+                            android:drawableTint="@color/blue_btn"
+                            android:drawablePadding="20dp"
+                            android:textSize="22dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:layout_marginLeft="20dp"
+                            android:gravity="left"/>
+
+                        <androidx.appcompat.widget.SwitchCompat
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="Download Statment"
+                        android:drawableLeft="@drawable/ic_download"
+                        android:drawableTint="@color/blue_btn"
+                        android:drawablePadding="20dp"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="left"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="Settings"
+                        android:drawableLeft="@drawable/ic_settings"
+                        android:drawableTint="@color/blue_btn"
+                        android:drawablePadding="20dp"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="left"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="Logout"
+                        android:drawableLeft="@drawable/ic_power"
+                        android:drawableTint="@color/red_clair"
+                        android:drawablePadding="20dp"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/red_clair"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="left"/>
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
